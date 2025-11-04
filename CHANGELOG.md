@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-## [0.3.0] - 2025-11-04
+## [0.4.0] - 2025-11-04
 
 ### Changed
 
@@ -28,6 +28,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add Code Climate with PHPMD enabled
+
+## [0.3.2] - 2021-11-17
+
+### Fixed
+
+- Fixed tests
+
+## [0.3.1] - 2021-11-17
+
+### Fixed
+
+- Fixed cs
+
+## [0.3.0] - 2021-5-11
+
+### Added
+
+- Add NovaHttpClientFactory mocked response handler for better testing
 
 ## [0.2.0] - 2020-04-06
 
