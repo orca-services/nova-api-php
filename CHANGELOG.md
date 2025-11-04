@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+### Dependency Updated
+
+### Added
+
+## [0.3.0] - 2025-11-04
+
+### Changed
+
 - Changed minimum version to PHP 7.2
 
 ### Dependency Updated
