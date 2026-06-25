@@ -107,7 +107,7 @@ class SavRefundTest extends TestCase
         $parameter = new NovaPurchaseServicesParameter();
         $this->setIdentifier($parameter);
         $parameter->novaServiceId = $createServiceResult->services[0]->serviceId;
-        $parameter->price = $createServiceResult->services[0]->price;
+        $parameter->price = (float)$createServiceResult->services[0]->price;
         $parameter->currency = $createServiceResult->services[0]->currency;
 
         $method = $this->container->get(NovaPurchaseServicesMethod::class);

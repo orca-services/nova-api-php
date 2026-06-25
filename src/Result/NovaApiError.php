@@ -29,7 +29,7 @@ final class NovaApiError
      * @param string $message The message
      * @param array|null $details The details
      */
-    public function __construct(string $code, string $message, array $details = null)
+    public function __construct(string $code, string $message, ?array $details = null)
     {
         $this->code = $code;
         $this->message = $message;
