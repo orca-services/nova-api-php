@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 ### Changed
+
+### Dependency Updated
+
+## [0.5.0](https://github.com/orca-services/nova-api-php/releases/tag/0.5.0) - 2026-06-25
+
+### Changed
 - Changed minimum version to PHP 7.4
 
 ### Dependency Updated
