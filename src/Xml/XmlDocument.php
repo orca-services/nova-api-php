@@ -100,9 +100,9 @@ final class XmlDocument
     {
         $nodes = $this->queryNodes($expression, $contextNode);
 
-        if ($nodes->length === 0 ||
-            !($nodes->item(0) instanceof DOMElement) ||
-            !($nodes->item(0) instanceof DOMNode)
+        if ($nodes->length === 0
+            || !($nodes->item(0) instanceof DOMElement)
+            || !($nodes->item(0) instanceof DOMNode)
         ) {
             throw new InvalidXmlException(sprintf('XML DOM node [%s] not found.', $expression));
         }
@@ -150,9 +150,9 @@ final class XmlDocument
     {
         $nodes = $this->queryNodes($expression, $contextNode);
 
-        if ($nodes->length === 0 ||
-            !($nodes->item(0) instanceof DOMElement) ||
-            !($nodes->item(0) instanceof DOMNode)
+        if ($nodes->length === 0
+            || !($nodes->item(0) instanceof DOMElement)
+            || !($nodes->item(0) instanceof DOMNode)
         ) {
             return null;
         }
@@ -179,7 +179,7 @@ final class XmlDocument
         }
 
         $attribute = $nodes->item(0);
-        if (!($attribute instanceof DOMAttr)) {
+        if (!$attribute instanceof DOMAttr) {
             throw new InvalidXmlException(sprintf('XML DOM attribute [%s] not found.', $expression));
         }
 
@@ -250,7 +250,7 @@ final class XmlDocument
         }
 
         $attribute = $nodes->item(0);
-        if (!($attribute instanceof DOMAttr)) {
+        if (!$attribute instanceof DOMAttr) {
             return null;
         }
 

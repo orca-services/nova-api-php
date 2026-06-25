@@ -21,7 +21,7 @@ final class NovaApiErrorList
      *
      * @return NovaApiErrorList self
      */
-    public function withError($code, string $message, array $details = null): NovaApiErrorList
+    public function withError($code, string $message, ?array $details = null): NovaApiErrorList
     {
         $clone = clone $this;
 

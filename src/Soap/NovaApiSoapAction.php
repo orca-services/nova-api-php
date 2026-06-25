@@ -285,8 +285,8 @@ final class NovaApiSoapAction
 
         $loginTimestamp = $this->httpClientLoginAt ? $this->httpClientLoginAt->getTimestamp() : 0;
 
-        if ($this->httpClient === null ||
-            $now->getTimestamp() - $loginTimestamp >= $this->httpClientMaxLifetime
+        if ($this->httpClient === null
+            || $now->getTimestamp() - $loginTimestamp >= $this->httpClientMaxLifetime
         ) {
             $this->httpClientLoginAt = $now;
             $this->httpClient = $this->httpClientFactory->createLoggedInHttpClient();
