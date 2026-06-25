@@ -20,7 +20,7 @@
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.95.10",
         "php-di/php-di": "^6.4.0",
-        "phpstan/phpstan": "^1.12.33",
+        "phpstan/phpstan": "^2.0.0",
         "phpunit/phpunit": "^9.6.34",
         "squizlabs/php_codesniffer": "^4.0.1"
     },
