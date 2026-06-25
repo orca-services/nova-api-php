@@ -471,7 +471,7 @@ class NovaApiClientTest extends TestCase
         $this->setIdentifier($parameter);
         $parameter->tkId = '949e2e6a-fdd1-4f07-8784-201e588ae834';
         $parameter->periodOfUseStart = Chronos::now()->subDays(1);
-        $parameter->periodOfUseEnd = Chronos::now()->addDay();
+        $parameter->periodOfUseEnd = Chronos::now()->addDays(1);
 
         $actual = $client->searchServices($parameter);
 
