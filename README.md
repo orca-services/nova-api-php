@@ -14,13 +14,11 @@ A PHP client library for the NOVA API.
 
 ## Description
 
-It will allow you to leverage the web services of the public transport platform 
-[NOVA](https://www.allianceswisspass.ch/de/die-branche/Netzweite-OeV-Anbindung-NOVA) 
-built by [SBB](https://www.sbb.ch).
+It will allow you to leverage the web services of the public transport platform [NOVA](https://www.allianceswisspass.ch/de/die-branche/Netzweite-OeV-Anbindung-NOVA) built by [SBB](https://www.sbb.ch).
 
 ## Requirements
 
- * PHP 7.0+
+ * PHP 7.4+
 
 ## Installation
 
@@ -34,7 +32,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Usage
 
-Documentation is at <https://orca-services.github.io/nova-api-php/>
+Documentation is at <https://orca-services.github.io/nova-api-php/>.
 
 ## License
 
