@@ -70,7 +70,7 @@ final class NovaApiErrorParser
             $errors = $errors->withError('0', $message);
 
             $response = $exception->getResponse();
-            $body = $response ? (string)$response->getBody() : '';
+            $body = (string)$response->getBody();
 
             if (strpos($body, '<?xml') === 0 || strpos($body, '<SOAP') === 0) {
                 $xmlError = XmlDocument::createFromXmlString($body);
