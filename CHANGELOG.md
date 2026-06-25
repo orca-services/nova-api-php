@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 ### Changed
+- Exclude repository-only files from distribution archives [#32](https://github.com/orca-services/nova-api-php/issues/32)
 
 ### Dependency Updated
 
