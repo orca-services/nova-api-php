@@ -1,5 +1,9 @@
 # NOVA API Client for PHP
 
+> [!WARNING]
+> **This repository is outdated and no longer works.**  
+> If you're interested in the current version, please contact us.
+
 A PHP client library for the NOVA API.
 
 **Attention: This package is still "Work in Progress".**
