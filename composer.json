@@ -1,5 +1,6 @@
 {
     "name": "orca-services/nova-api",
+    "abandoned": true,
     "description": "A PHP client library for the NOVA API",
     "license": "MIT",
     "keywords": [
